@@ -1,0 +1,59 @@
+This repository contains various Machine Learning and Data Analytics projects implemented using Python. The projects cover supervised learning, regression models, classification models, and deep learning techniques.
+
+📁 Project Overview
+1️⃣ Univariate Linear Regression (UnivariateLR.ipynb)
+📌 Dataset: A dataset containing a single independent variable (X) and a dependent variable (y).
+📌 Objective: Predict the dependent variable using Univariate Linear Regression.
+
+Key Features:
+Simple linear regression model built using Scikit-Learn.
+Visualization of regression line using Matplotlib.
+Evaluation of model performance.
+
+
+2️⃣ Mini Project: Heart Disease Prediction (MiniProject.ipynb)
+📌 Dataset: heart.csv (Heart Disease Dataset)
+📌 Objective: Predict whether a patient has heart disease based on medical features.
+
+Dataset Description:
+Age: Age of the patient.
+Sex: Male (M) or Female (F).
+ChestPainType: Type of chest pain (ATA, NAP, ASY, etc.).
+RestingBP: Resting blood pressure.
+Cholesterol: Serum cholesterol levels.
+MaxHR: Maximum heart rate achieved.
+HeartDisease: Target variable (1 = Disease, 0 = No Disease).
+Key Features:
+Exploratory Data Analysis (EDA) using Seaborn & Matplotlib.
+Feature correlation heatmap to identify important attributes.
+Random Forest Classifier for heart disease prediction.
+Performance evaluation using accuracy scores.
+
+
+3️⃣ Final Project (fp.ipynb)
+📌 Dataset: Possibly a real-world dataset involving classification or regression.
+📌 Objective: Advanced machine learning pipeline with feature engineering and hyperparameter tuning.
+
+Key Features:
+Data preprocessing, handling missing values, and feature selection.
+Comparing multiple ML models (Random Forest, SVM, Logistic Regression).
+Hyperparameter tuning using GridSearchCV.
+Performance evaluation using various metrics.
+
+
+4️⃣ Iris Random Forest Classification (Iris_RandomForest.ipynb)
+📌 Dataset: Iris dataset (from Scikit-Learn).
+📌 Objective: Classify different Iris flower species using a Random Forest Classifier.
+
+Dataset Description:
+sepal_length: Length of the sepal in cm.
+sepal_width: Width of the sepal in cm.
+petal_length: Length of the petal in cm.
+petal_width: Width of the petal in cm.
+species: Target variable (Setosa, Versicolor, Virginica).
+Key Features:
+Random Forest Model for classification.
+Feature importance analysis.
+Accuracy evaluation with accuracy_score().
+
+
